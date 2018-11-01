@@ -3,6 +3,8 @@ import groovy.json.JsonBuilder
 import groovy.json.JsonSlurper
 import jenkins.security.*
 import hudson.model.* 
+import jenkins.model.*
+jenkins = Jenkins.instance
 
 def proceed(){
  def deploymentConfig
