@@ -19,6 +19,7 @@ def proceed(){
 	    mavenBuild(deploymentConfig)
 	    }
     }
+  return this	
 }
 
 def mavenBuild(deploymentConfig)
@@ -27,3 +28,4 @@ def mavenBuild(deploymentConfig)
           [$class: 'StringParameterValue', name: 'deploymentConfig', value: deploymentConfig.toString()]
   ], propagate: true) 
 }
+
