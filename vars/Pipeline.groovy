@@ -19,7 +19,7 @@ def proceed(){
 	    mavenBuild(deploymentConfig)
 	    }
     }
-  return this	
+  
 }
 
 def mavenBuild(deploymentConfig)
